@@ -12,7 +12,7 @@ $(document).ready(function() {
 					$('.fb-list').append("<li>fizz</li>");			
 				}
 				else if ((i%5)==0) {
-					$('fb-list').append("<li>buzz</li>");
+					$('.fb-list').append("<li>buzz</li>");
 				}
 				else {
 					$('.fb-list').append("<li>" + i + "</li>");	
